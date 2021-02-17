@@ -1,6 +1,7 @@
 print("How far are we from the cave?")
 steps = int(input())
 distance = steps
+#print
 print()
 
 for count in range(steps):
