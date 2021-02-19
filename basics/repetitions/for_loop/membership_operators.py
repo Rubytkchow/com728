@@ -1,7 +1,12 @@
 print("What phrase do you see?")
 phrase = input()
 
-print()
-print()
+print("Reversing...")
+print("The phrase is ", end="")
+
+reversed = ""
+
 for letter in phrase:
-    print()
+    reversed = letter + reversed
+
+print(reversed)
