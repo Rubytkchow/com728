@@ -6,7 +6,7 @@ def menu():
     print("Please select a direction:")
     direct = directions()
     for index in range(len(direct)):
-        print(f"{index}: {direct}")
+        print(f"{index}: {direct[index]}")
     index = int(input())
     return direct[index]
 
